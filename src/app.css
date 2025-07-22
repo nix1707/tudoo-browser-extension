@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('/src/css/header.css');
+@import url('/src/css/todo-list.css');
+@import url('/src/css/item-form.css');
+@import url('/src/css/progress.css');
+@import url('/src/css/placeholder.css');
+
+:root {
+  --primary-transparent: rgba(2, 2, 2, 0.4);
+  --primary-color: #2d2d2d;
+  --primary-hover: #3d3d3d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  min-height: 540px;
+  min-width: 420px;
+  background-color: #fff;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  align-self: flex-start;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  position: relative;
+}
+
+input[type="checkbox"]:checked::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: -7px;
+  width: 8px;
+  height: 16px;
+  border: solid #00c853;
+  border-radius: 2px;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}

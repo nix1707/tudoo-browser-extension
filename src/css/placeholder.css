@@ -1,0 +1,61 @@
+.placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    margin-top: 30px;
+    text-align: start;
+    gap: 14px;
+    opacity: 0.8;
+}
+
+.placeholder h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--primary-color);
+
+}
+
+.placeholder p {
+    font-size: 21px;
+    font-weight: 300;
+    color: var(--primary-color);
+}
+
+.placeholder__footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 64px;
+    width: 100%;
+    display: flex;
+    background-color: #dadada;
+    padding: 10px;
+}
+
+.placeholder__footer img {
+    opacity: 0.9;
+}
+
+.footer__about-me h2 {
+    text-align: center;
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.footer__about-me a {
+    text-align: center;
+    color: rgb(113, 113, 197);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer__about-me a:hover {
+    text-decoration: underline;
+}
+
+.footer__about-me img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}

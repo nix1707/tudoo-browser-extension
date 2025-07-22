@@ -1,0 +1,113 @@
+.item-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: sticky;
+    inset: 0px;
+    background: white;
+    z-index: 5;
+    padding: 15px;
+    border-bottom: 1px solid var(--primary-transparent);
+}
+
+.item-form input {
+    padding: 7px 14px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary-color);
+    border: 1.2px solid var(--primary-color);
+    border-radius: 2px;
+    outline: none;
+}
+
+.item-form textarea {
+    padding: 7px 14px;
+    font-size: 14;
+    font-weight: 400;
+    color: var(--primary-color);
+    border: 1.2px solid var(--primary-color);
+    border-radius: 2px;
+    outline: none;
+    resize: vertical;
+}
+
+.metadata-input {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 10px;
+}
+
+
+.priority-select {
+    border: 1.2px solid var(--primary-color);
+    border-radius: 2px;
+    flex: 1;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 10px;
+}
+
+.priority-select span {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.priority-select__item {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.priority-select__item:hover {
+    cursor: pointer;
+    background: rgba(2, 2, 2, 0.1);
+    border-radius: 4px;
+}
+
+.active-priority {
+    border: 1.5px solid var(--primary-transparent);
+    border-radius: 2px;
+}
+
+.priority-select__item img {
+    user-select: none;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.item-form__buttons {
+    display: flex;
+    gap: 14px;
+    align-self: flex-end;
+}
+
+.item-form__buttons button {
+    padding: 7px 12px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.item-form__buttons button:hover {
+    cursor: pointer;
+}
+
+.button-done {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.button-done:hover {
+    background-color: var(--primary-hover);
+}
+
+.button-cancel:hover {
+
+    background-color: #e0e0e0;
+}

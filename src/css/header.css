@@ -1,0 +1,38 @@
+.header__nav {
+    background-color: var(--primary-color);
+    display: flex;
+    overflow: hidden;
+}
+
+.header__logo {
+    flex: 1;
+    display: flex;
+    position: relative;
+    padding: 15px;
+}
+
+.header__logo h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.header__date {
+    padding: 10px;
+    flex: 1;
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.header__date h2 {
+    color: #fff;
+    font-size: 18px;
+}
+
+.header__date span {
+    color: #fff;
+    font-size: 16px;
+    opacity: 0.8;
+}
