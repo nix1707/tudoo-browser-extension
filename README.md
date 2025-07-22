@@ -59,8 +59,8 @@ Follow these steps to run **Tudoo – Your Task List** locally:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/tudoo-extension.git
-cd tudoo-extension
+git clone https://github.com/nix1707/tudoo-browser-extension.git
+cd tudoo-browser-extension
 ```
 
 ### 2. Install Dependencies
