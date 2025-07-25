@@ -91,8 +91,8 @@ Your extension should now be active and visible in your Chrome toolbar.
 
 ## Links & Resources
 
-- 🔗 **Chrome Web Store**: [Coming Soon](https://chrome.google.com/webstore)
-- 🔗 **Firefox Addons**: [Coming Soon](https://addons.mozilla.org/en-GB/firefox/)
+- 🔗 **Add to**: [Chrome Web Store](https://chromewebstore.google.com/detail/fengockahlhncfgifojkmpmpajgfaedh?utm_source=item-share-cb)
+- 🔗 **Add to**: [Firefox Addons](https://addons.mozilla.org/addon/tudoo-your-task-list/)
 - 📖 **Learn Svelte**: [Svelte Official Site](https://svelte.dev/)
 - 📝 **Documentation**: [Chrome Extension Docs](https://developer.chrome.com/docs/extensions/)
 
